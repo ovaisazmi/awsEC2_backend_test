@@ -2,8 +2,8 @@ const express=require("express");
 const app=express();
 
 app.get("/",(req,res)=>{
-    console.log("server working fine");
-    res.send("server working fine")
+    console.log("server working 2");
+    res.send("wlcome to server 2")
 })
 
 

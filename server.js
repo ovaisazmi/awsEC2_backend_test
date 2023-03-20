@@ -2,8 +2,8 @@ const express=require("express");
 const app=express();
 
 app.get("/",(req,res)=>{
-    console.log("server working 1");
-    res.send("wlcome to server 1")
+    console.log("server working 2");
+    res.send("wlcome to server 2")
 })
 app.get("/home",(req,res)=>{
     res.send("home server 1")
